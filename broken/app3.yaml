@@ -32,10 +32,10 @@ spec:
     remediation:
       retries: 3
   driftDetection:
-    mode: enabled
+    mode: testdj
     ignore:
     - paths: ["/spec/replicas"]
       target:
-        kind: Deployment
+        kind: "Deployment
   values:
     replicaCount: 5
