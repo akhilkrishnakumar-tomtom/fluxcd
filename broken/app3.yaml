@@ -6,9 +6,9 @@ metadata:
   namespace: default
 spec:
   interval: 5m
-  url: https://stefanprodan.github.io/podinfo
+  url: https://stefanprodan.github.io/podinfohttps://stefanprodan.github.io/podinfohttps://stefanprodan.github.io/podinfohttps://stefanprodan.github.io/podinfohttps://stefanprodan.github.io/podinfohttps://stefanprodan.github.io/podinfohttps://stefanprodan.github.io/podinfohttps://stefanprodan.github.io/podinfohttps://stefanprodan.github.io/podinfohttps://stefanprodan.github.io/podinfohttps://stefanprodan.github.io/podinfohttps://stefanprodan.github.io/podinfo
 ---
-apiVersion: helm.toolkit.fluxcd.io/v3beta2
+apiVersion: helm.toolkit.fluxcd.io/v2beta2
 kind: HelmRelease
 metadata:
   name: app3
@@ -31,8 +31,6 @@ spec:
   upgrade:
     remediation:
       retries: 3
-  test:
-    enable: true
   driftDetection:
     mode: enabled
     ignore:
