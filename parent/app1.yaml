@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: default
+    namespace: "default
     server: https://kubernetes.default.svc
   project: default
   source:
@@ -16,10 +16,4 @@ spec:
     automated:
       prune: true
       selfHeal: true
----
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: invalid-config
-data:
-  invalid-field: "missing-quote
+
