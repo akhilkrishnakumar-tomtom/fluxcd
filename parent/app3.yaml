@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: app3
-    repoURL: https://github.dev/akhilkrishnakumar-tomtom/fluxcd
+    repoURL: https://github.com/akhilkrishnakumar-tomtom/fluxcd
     targetRevision: HEAD
   syncPolicy:
     automated:
