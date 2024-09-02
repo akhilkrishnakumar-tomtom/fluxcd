@@ -1,7 +1,0 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-metadata:
-  name: kustom-broken
-resources:
-  - app3.yaml
-  - app3.yaml
